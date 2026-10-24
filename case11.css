@@ -1,0 +1,176 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f9ff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #087f8c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin: 0;
+}
+
+nav {
+    background-color: #064e5b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a7f3d0;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #087f8c;
+}
+
+.banner {
+    background-color: #ccfbf1;
+    padding: 55px 20px;
+}
+
+.banner h2 {
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #087f8c;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #cccccc;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #0f766e;
+}
+
+.facilities {
+    background-color: #e0f2fe;
+}
+
+.facilities ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+.timings {
+    background-color: #ccfbf1;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 90px;
+}
+
+button {
+    background-color: #087f8c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #064e5b;
+}
+
+#contact {
+    background-color: #e0f2fe;
+}
+
+footer {
+    background-color: #064e5b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
